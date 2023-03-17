@@ -1,0 +1,56 @@
+.main-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.90)), url("../assets/02.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin-bottom: 2.5%;
+}
+
+.introduction-text h1{
+    font-size: 4rem;
+    margin-bottom: 5%;;
+}
+
+.introduction-text p{
+    font-size: large;
+    margin-bottom: 5%;
+}
+
+.introduction-text a{
+    font-size: larger;
+    padding-left: 10%;
+    padding-top: 2.5%;
+    padding-right: 10%;
+    padding-bottom: 2.5%;
+}
+
+.introduction-text .btn{
+    color: greenyellow;
+    border-radius: 5rem;
+    border-color: greenyellow;
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(40px);
+}
+
+.introduction-text .btn:hover{
+    color: black;
+    border-radius: 5rem;
+    border-color: greenyellow;
+    border-width: 2px;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 8px 2px greenyellow;
+}
+
+.introduction-text .btn:focus{
+    color: black;
+    border-radius: 5rem;
+    border-color: greenyellow;
+    border-width: 2px;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 8px 2px greenyellow;
+}
